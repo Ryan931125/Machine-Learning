@@ -19,3 +19,7 @@ Past machine learning course projects (NTU), organized by homework notebook. Eac
 - `HW4_Training_Transformers.ipynb`  
   Trained a decoder-only transformer for next-token prediction on tokenized Pokemon image sequences.  
   Techniques: custom dataset/dataloader design, autoregressive language modeling objective, training/validation loops, and sequence-to-image reconstruction analysis.
+
+- `HW5-finetuning.ipynb`  
+  Fine-tuned a Llama-based instruction model under HW constraints using parameter-efficient adaptation and a curated subset of conversation data.  
+  Techniques: LoRA/PEFT adapters with Unsloth acceleration, dataset filtering/sorting and prompt formatting, supervised fine-tuning (SFTTrainer), and post-training inference generation.
